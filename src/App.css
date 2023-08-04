@@ -1,0 +1,82 @@
+.app{
+    background-repeat: no-repeat;
+    background-size: cover,contain;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.container{
+    width: 90%;
+    margin: 10px auto;
+    padding: 20px;
+}
+.search{
+    width: 100%;
+    margin: 10px 10px auto;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 20px 20px ;
+    border-radius:15px;
+}
+.input-and-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.input-and-btn input{
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    color:rgb(0, 0, 0);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 1px;
+    font-size: 25px;
+}
+.weather{
+    background-color: rgba(157, 173, 181, 0.63);
+    margin: 50px 300px;
+    border-radius: 10px;
+    padding-top: 15px;       
+}
+.weather-section {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 1px 1px;
+}
+.details{
+    width: 100%;
+    margin: 30px 5px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+}
+.details .min,.max,.feels,.pressure,.humidity,.wind-speed{
+    background-color: rgba(157, 173, 181, 0.63);
+    margin: 10px auto;
+    width: 45%;
+    font-weight: 900;
+    padding-top: 3px;    
+}
+.city-name{
+    width: 100%;
+    margin: 5px 0px;
+    display: block;
+}
+.celcius{
+    font-size: 80px;
+    color: white;
+}
+.icon{
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+}
+.min-icon{
+    font-size: 40px;
+}
+h1,h3,h6{
+    font-weight: 700;
+}
